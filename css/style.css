@@ -1,0 +1,11 @@
+/* DEBUG */
+
+.debug [class*="col-"] {
+  border: 3px solid black;
+  height: 150px;
+  text-align: center;
+}
+
+header {
+  background-color: #2c3e50;
+}
