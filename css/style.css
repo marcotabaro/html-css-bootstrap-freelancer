@@ -83,7 +83,6 @@ header {
 }
 
 #portfolio img {
-  width: 360px;
   height: 260px;
   border-radius: 5px;
   margin: 15px 30px;
@@ -93,7 +92,21 @@ header {
 
 /* ABOUT */
 
+.container-small {
+  width: 800px;
+  margin: 0 auto;
+}
 
+.btn-default {
+  margin: 40px;
+  background-color: #1abc9c;
+  border: white 2px solid;
+  color: white;
+}
+
+/* /////////////////// */
+
+/* CONTACT ME  */
 
 
 
@@ -111,6 +124,10 @@ header {
 
 .lheight-100 {
   line-height: 80px;
+}
+
+.pg_top {
+  padding-top: 30px;
 }
 
 .pg_bottom {
