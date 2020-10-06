@@ -2,14 +2,70 @@
 
 .debug .container [class*="col-"] {
   border: 3px solid black;
-  height: 150px;
+  height: 100px;
   text-align: center;
 }
 
-header {
-  background-color: #2c3e50;
+/* ////////////////////// */
+
+body {
+  font-weight: 400;
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+body img {
+  width: 240px;
+  height: 240px;
+}
+
+/* HEADER  */
+
+header {
+  background-color: #2c3e50;
+  font-weight: 700;
+}
+
+
+.logo-nav {
+  font-size: 1.75em;
+}
+
+
+.list-header {
+  list-style-type: none;
+  list-style: none;
+  text-align: right;
+}
+
+.list-header li {
+  display: inline-block;
+}
+
+#start-bootstrap img {
+  text-align: center;
+}
+
+
+
+/* HELPER */
+
+.white-text {
+  color: white;
+}
+
+
+.height-100 {
+  height: 80px;
+
+}
+
+.lheight-100 {
+  line-height: 80px;
+}
+
+
+
+/* BACKGROUND COLOR */
 #start-bootstrap {
   background-color: #1abc9c;
 }
