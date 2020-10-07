@@ -82,12 +82,36 @@ header {
   border-radius: 5px;
 }
 
-#portfolio img {
-  height: 260px;
+.overlay img {
+  width: 100%;
   border-radius: 5px;
-  margin: 15px 30px;
+  margin-bottom: 30px;
 }
 
+.overlay {
+  position: relative;
+}
+
+.overlay:hover {
+
+}
+
+
+.overlay:hover img {
+  opacity: 0.3;
+}
+
+.overlay:hover::before {
+  content: "\002B";
+  display: inline-block;
+  background-color: rgba(26, 188, 156, 0.9);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: white;
+  font-size: 100px;
+}
 /* ////////////////////////////// */
 
 /* ABOUT */
@@ -110,6 +134,33 @@ header {
 #inputmessage {
   height: 200px;
 }
+
+/* ////////////////////////// */
+
+/* FOOTER */
+
+footer [class*="footer-"] {
+  text-align: center;
+  padding: 30px;
+  font-size: 2rem;
+}
+
+.circle {
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 100%;
+  width: 4rem;
+  height: 4rem;
+  height: 100%;
+  line-height: 4rem;
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+
+
+
+
 
 
 /* HELPER */
